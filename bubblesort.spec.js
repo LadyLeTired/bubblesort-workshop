@@ -1,9 +1,9 @@
 
 
 describe('Bubble Sort', function(){
-  beforeAll(function () {
-    spyOn(swap)
-  })
+  // beforeAll(function () {
+  //   spyOn(swap)
+  // })
   it('handles an empty array', function(){
     expect( bubbleSort([]) ).toEqual( [] );
   });
