@@ -6,6 +6,12 @@ describe('Split Array function', function() {
 
 describe('Merge function', function(){
   it('is able to merge two sorted arrays into one sorted array', function(){
-    expect ( merge ([1,2,3],[4,5,6])).toEqual([1,2,3,4,5,6]);
+    expect ( merge ([2,7,10],[1,3,4,11])).toEqual([1,2,3,4,7,10,11]);
+  });
+});
+
+describe('mergeSort function', function(){
+  it('it can merge and sort! wow!', function(){
+    expect (mergeSort ([26,15,12,82,2,38])).toEqual([2,12,15,26,38,82]);
   });
 });
